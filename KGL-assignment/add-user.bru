@@ -1,0 +1,26 @@
+meta {
+  name: add-user
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/users
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+  "username": "Blanco",
+  "email": "blanco@gmail.com",
+  "password": "123456",
+  "role": "Manager"
+  }
+  
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

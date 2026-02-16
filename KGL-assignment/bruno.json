@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "KGL-assignment",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
