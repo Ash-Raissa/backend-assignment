@@ -33,7 +33,7 @@ const swaggerDefinition = {
 
 // Options for swagger-jsdoc
 const options = {
-  swaggerDefinition,
+  definition: swaggerDefinition,
   // Path to your API route files (where you put the JSDoc comments)
   apis: ['./routers/*.js'], 
 };
